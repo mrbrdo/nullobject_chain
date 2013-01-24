@@ -4,7 +4,12 @@ Allows you to chain methods even if somewhere in the process you start getting n
 
 Example use (I use a hash as an example since it will return nil if there is no value for a key):
 
+    NullChainer.use_nullobject = true # if false, then it will use nil instead of Null::Object.instance
     my_hash = Hash.new
     NullChain(my_hash)["value"]["value"]["value"].get # => Null::Object.instance
 
 Just remember to call #get after chaining your methods and you're good to go!
+
+= Version 1.0.0
+
+Breaking change: Null::Object.instance not used by default anymore.
