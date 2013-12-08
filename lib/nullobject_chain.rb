@@ -23,7 +23,7 @@ class NullChainer < BasicObject
       if @obj.nil?
         ::NullChainer.new(nil)
       else
-        super
+        raise $!
       end
     end
   end
