@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'nullobject_chain'
-  s.version     = '1.0.0'
+  s.version     = '1.0.1'
   s.summary     = "Chain methods on nil without getting exceptions."
   s.description = s.summary
   s.authors     = ["Jan Berdajs"]

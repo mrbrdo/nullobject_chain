@@ -1,13 +1,13 @@
 PATH
   remote: .
   specs:
-    nullobject_chain (0.0.1)
+    nullobject_chain (1.0.1)
       nullobject
 
 GEM
   remote: http://rubygems.org/
   specs:
-    nullobject (0.0.3)
+    nullobject (0.0.5)
 
 PLATFORMS
   ruby
